@@ -33,3 +33,19 @@ for number in list2:
         unique.append(number)
         unique.sort()
 print(unique)
+
+#
+
+phone=input('phone: ')
+
+mapping={
+    '1':"one",
+    '2':"two",
+    '3':"three",
+    '4':'four'
+    }
+output= ""
+
+for ch in mapping:
+    output+=mapping.get(ch, "!")+ ' '
+print(output)
