@@ -19,7 +19,7 @@ for number in numbers:
 
 list= [10,3,4,89,3,3,0,2]
 
-list.append(30)
+list.appendh(30)
 list.insert(2, 100)
 list.remove(3)
 print(list)
@@ -49,3 +49,9 @@ output= ""
 for ch in mapping:
     output+=mapping.get(ch, "!")+ ' '
 print(output)
+
+# example two
+
+message=input('>')
+words=message.split('')
+print(words)
