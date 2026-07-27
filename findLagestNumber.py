@@ -19,7 +19,7 @@ for number in numbers:
 
 list= [10,3,4,89,3,3,0,2]
 
-list.append(30)
+list.append(300)
 list.insert(2, 100)
 list.remove(3)
 print(list)
